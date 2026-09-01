@@ -1,0 +1,24 @@
+[build-system]
+requires = []
+build-backend = "_build_backend"
+backend-path = ["."]
+
+[project]
+name = "declared-coherence"
+version = "0.1.0a1"
+description = "Deterministic validation of declared relationships among repository artifacts"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Software Development :: Quality Assurance",
+]
+
